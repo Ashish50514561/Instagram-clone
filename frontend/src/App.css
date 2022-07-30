@@ -1,0 +1,54 @@
+/* * {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */
+
+/* *::-webkit-scrollbar {
+  display: none;
+} */
+
+.instagram {
+  font-family: "Satisfy", cursive;
+  font-size: 32px;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.storiesBorder {
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 10%,
+    #e6683c 45%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 10%,
+    #e6683c 45%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 10%,
+    #e6683c 45%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.changeStory {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+}
+.changeStoryButtons {
+  background-color: rgba(red, green, blue, 0);
+}
